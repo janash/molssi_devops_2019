@@ -8,7 +8,8 @@ A sample repo for the 2019 MolSSI Software Fellow Bootcamp
 from __future__ import absolute_import
 
 # Add imports here
-from .molssi_math import *
+from .molssi_math import canvas, mean
+from .string_util import title_case
 
 # Handle versioneer
 from ._version import get_versions
